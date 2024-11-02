@@ -1,0 +1,33 @@
+*{
+   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+}
+
+.from,.to {
+   display: flex;
+   gap: 20px;
+   padding: 12px 22px;
+   border-radius: 6px;
+   border: 1px solid gray;
+   margin-bottom: 10px;
+} 
+
+.vertical-line {
+    height: auto;
+    width: 2px;
+    background-color: gray;
+}
+
+select {
+  flex: auto;  
+}
+input {
+    width: 100px;
+}
